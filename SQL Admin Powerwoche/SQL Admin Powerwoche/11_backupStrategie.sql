@@ -13,7 +13,7 @@
 
 
 --Vollsicherung:
-jeden Tag ausser Sa/So  22 Uhr
+--jeden Tag ausser Sa/So  22 Uhr
 
 --Tlogsicherung
 -- alle 15min Mo bis Fr 6:15 -- 21:00

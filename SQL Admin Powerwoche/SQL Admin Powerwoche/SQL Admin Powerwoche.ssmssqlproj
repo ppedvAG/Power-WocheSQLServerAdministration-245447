@@ -86,8 +86,8 @@
           <FullPath>11_Backup.sql</FullPath>
         </FileNode>
         <FileNode Name="11_backupStrategie.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>11_backupStrategie.sql</FullPath>
         </FileNode>
@@ -102,6 +102,60 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>12_Restore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Evi.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13_Evi.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_Max.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13_Max.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13_VerwaisteUser.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>13_VerwaisteUser.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14_Proxykonto.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>14_Proxykonto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_Containted Databases.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>18_Containted Databases.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_Richtlinien.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>19_Richtlinien.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_Audit.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>20_Audit.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_help_Revlogin.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_help_Revlogin.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Z_instnwnd.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Z_instnwnd.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
