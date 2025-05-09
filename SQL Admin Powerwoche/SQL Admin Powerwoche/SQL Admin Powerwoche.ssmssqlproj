@@ -11,6 +11,8 @@
           <Authentication>Windows-Authentifizierung</Authentication>
           <InitialDB />
           <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>False</TrustServerCertificate>
+          <EncryptionOption>True</EncryptionOption>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
@@ -30,6 +32,18 @@
           <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>01_Installation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="01_Virtualisierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>01_Virtualisierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02_MAXDOP.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02_MAXDOP.sql</FullPath>
         </FileNode>
         <FileNode Name="02_Setup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -74,8 +88,8 @@
           <FullPath>07_Agent.sql</FullPath>
         </FileNode>
         <FileNode Name="08_Dababasemail.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>08_Dababasemail.sql</FullPath>
         </FileNode>
@@ -151,6 +165,36 @@
           <AssociatedConnUserName />
           <FullPath>20_Audit.sql</FullPath>
         </FileNode>
+        <FileNode Name="30_part Sicht.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>30_part Sicht.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31_Partitionierung.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>31_Partitionierung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="40_Monitoring.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>BIGBEN</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>40_Monitoring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="50_Indizes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>50_Indizes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="51_forward_record_Count.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>51_forward_record_Count.sql</FullPath>
+        </FileNode>
         <FileNode Name="sp_help_Revlogin.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -162,6 +206,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Z_instnwnd.sql</FullPath>
+        </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
         </FileNode>
         <FileNode Name="Z_SQL Server 2022 Diagnostic Information Queries.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:BIGBEN:True</AssociatedConnectionMoniker>
@@ -178,6 +228,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>_SQLPOL.zip</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerfmonVorlage_ColStore.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage_ColStore.xml</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
